@@ -133,7 +133,7 @@ function Library:Create(Class, Properties)
 end;
 
 function Library:ApplyTextStroke(Inst)
-    Inst.TextStrokeTransparency = 1;
+    Inst.TextStrokeTransparency = 0.1;
 
     Library:Create('UIStroke', {
         Color = Color3.new(0, 0, 0);
