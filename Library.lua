@@ -1,5 +1,3 @@
---// Linoria Rewrite!
-
 local InputService = game:GetService('UserInputService');
 local TextService = game:GetService('TextService');
 local TweenService = game:GetService('TweenService');
@@ -39,7 +37,7 @@ local Library = {
     OutlineColor = Color3.fromRGB(11, 11, 11);
 
     Black = Color3.new(0, 0, 0);
-    Font = Enum.Font.Code;
+    Font = Enum.Font.Cartoon;
 
     OpenedFrames = {};
 
